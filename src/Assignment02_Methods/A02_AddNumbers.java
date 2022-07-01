@@ -11,9 +11,9 @@ public class A02_AddNumbers {
         System.out.print("Enter the number to calculate : ");
         int num1 = scanner.nextInt();
         addNumbers(num1);
-        //System.out.println(A01_TakeNumber.minusPlusCheck(num1));
-        //System.out.println(A01_TakeNumber.addDigits(num1));
-        //System.out.println(A01_TakeNumber.oddEven(num1));
+        System.out.println(A01_TakeNumber.minusPlusCheck(num1));
+        System.out.println(A01_TakeNumber.addDigits(num1));
+        System.out.println(A01_TakeNumber.oddEven(num1));
 
 
     }
