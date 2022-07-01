@@ -12,7 +12,11 @@ public class dataCasting {
         short num2 = 99;
         long num3 = 123;
         float num4 = 2342f;
-        double num5 = 3242342;
+        double num5 = 3242342, num6;
+
+        String str = "null";
+
+        System.out.println(str.length());
 
         num = (int) num5;
 
