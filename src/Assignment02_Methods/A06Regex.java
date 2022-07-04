@@ -13,6 +13,7 @@ public class A06Regex {
 
         password2 = password2.replaceAll("[A-Z]", "a");
         System.out.println(password2);
+        password2 = "ABCabd123!@#$%^";
         password2 = password2.replaceAll("[^A-Z]", "a");
         System.out.println(password2);
         password3 = password3.replaceAll("[a-z]", "z");

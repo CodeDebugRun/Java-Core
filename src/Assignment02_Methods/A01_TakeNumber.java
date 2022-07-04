@@ -1,6 +1,7 @@
 package Assignment02_Methods;
 
 import java.util.Scanner;
+import java.util.regex.*;
 
 public class A01_TakeNumber {
     /*Kullanicidan bir sayi alin . Bu sayinin tek mi cift mi oldugunu
@@ -15,6 +16,8 @@ public class A01_TakeNumber {
         System.out.println(oddEven(number));
         System.out.println(minusPlusCheck(number));
         System.out.println(addDigits(number));
+
+
 
     }
 
