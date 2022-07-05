@@ -22,6 +22,18 @@ public class Fibonacci {
         System.out.println("enrter the number of fib  ");
         int n = scanner.nextInt();
 
+        int x = 1;
+        int y = 0;
+        int fib = 0;
+        //Wrong solution
+        for (int i = 0; i < n; i++) {
+            fib = x + y;
+            y = fib;
+            x += 1;
+            System.out.println(x + "      "+ y + "     " + fib);
+        }
+
+
 
     }
 }
