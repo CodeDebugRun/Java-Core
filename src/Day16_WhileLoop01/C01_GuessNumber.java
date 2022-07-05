@@ -20,6 +20,7 @@ public class C01_GuessNumber {
             Scanner scanner = new Scanner(System.in);
             System.out.print("Enter a number between 1-1000 to play :  ");
             int number = scanner.nextInt();
+
             if (number < 0 || number > 1000) {
                 attempt--;
                 System.out.println("Please enter a number between 1-1000");
