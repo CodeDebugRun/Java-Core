@@ -1,5 +1,7 @@
 package Day15_Overloading;
 
+import static Day16_WhileLoop01.C04_DrawStars.drawStars;
+
 public class C01_ReturnMethod {
     public static void main(String[] args) {
         // verilen iki sayiyi carpip
@@ -8,6 +10,8 @@ public class C01_ReturnMethod {
                 int sayi2=5;
                 int sonuc=carpGetir(sayi1,sayi2);
                 System.out.println("Illa da sonucu goreyim diyenlere main method icinde : " + sonuc);
+
+                drawStars(4,10);
 
 
             }
