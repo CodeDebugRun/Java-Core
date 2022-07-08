@@ -22,6 +22,9 @@ public class C03_ClassVariables {
 
         System.out.println(newObject01.nameValueNotAssigned); // deger atanmayinca null yazdirir.
 
+        C01_ClassLevelVariables object2 = new C01_ClassLevelVariables();
+
+
 
     }
 }

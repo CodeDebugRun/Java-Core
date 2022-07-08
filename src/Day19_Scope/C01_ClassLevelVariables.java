@@ -1,6 +1,13 @@
 package Day19_Scope;
 
 public class C01_ClassLevelVariables {
+
+    final static int DAYS_OF_WEEK = 7; //Number of days will never change throughout program
+                                       //I can call directly without creating object
+    final static int HOURS_OF_DAY = 24; //gibi
+
+    private static int beginningSalary = 100_000;//private oldugu icin static olsada baska classlarda degistirilmeyecek
+                                                 //sadece bu class icerisinde degistirilebilicek
     int num = 38;
     static int num1 = 34;
     static String sentence = "This is static string";
@@ -20,6 +27,10 @@ public class C01_ClassLevelVariables {
         C01_ClassLevelVariables.staticMethod();
         /*****************************/
         object01.nonStaticMethod();
+        System.out.println(DAYS_OF_WEEK);
+        System.out.println(beginningSalary);
+        C01_ClassLevelVariables.beginningSalary = 8000;
+        System.out.println(beginningSalary);
 
 
 
