@@ -18,4 +18,5 @@ public class C01_UniqueCharacters {
         System.out.println(input);
         System.out.println(sum);
     }
+
 }
