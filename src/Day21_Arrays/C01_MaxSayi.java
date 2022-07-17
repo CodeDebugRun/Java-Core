@@ -4,6 +4,7 @@ public class C01_MaxSayi {
     public static void main(String[] args) {
         int[] numbers = {3,5,9,8,5,1212,14545,211452};
         maxNumber(numbers);
+        minNumber(numbers);
     }
     public static void maxNumber (int [] numbers){
         int maxSayi = numbers[0];
@@ -13,5 +14,14 @@ public class C01_MaxSayi {
             }
         }
         System.out.println(maxSayi);
+    }
+    public static void minNumber (int [] numbers){
+        int minSayi = numbers[0];
+        for (int i = 1; i < numbers.length ; i++) {
+            if (numbers[i]<minSayi){
+                minSayi = numbers[i];
+            }
+        }
+        System.out.println(minSayi);
     }
 }
