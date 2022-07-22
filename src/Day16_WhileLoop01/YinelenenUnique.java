@@ -1,8 +1,6 @@
 package Day16_WhileLoop01;
 
-public class C03_YinelenenKarakter {
-    //String içerisinde yinelenen karakteri bul
-
+public class YinelenenUnique {
     public static void main(String[] args) {
 
         String str = "javaissoeasy";
@@ -23,14 +21,5 @@ public class C03_YinelenenKarakter {
         }
         System.out.println(yinelenenUnique);
 
-
-        String input="Ankara";
-        for (int i = 1; i <=input.length() ; i++) {
-            System.out.println(input.substring(0, i));
-        }
-        for (int j = input.length()-1; j > 0; j--) {
-            System.out.println(input.substring(0,j));
-
-        }
-        System.out.println("");
-    }}
+    }
+}
