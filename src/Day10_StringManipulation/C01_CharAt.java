@@ -10,7 +10,7 @@ public class C01_CharAt {
         //CharAT() metodu char doner sonrasinda diger String metodlari kullanilmaz
 
 
-        System.out.println(str.charAt(5));
+        System.out.println(str.charAt(0));
         System.out.println(str.toUpperCase(Locale.ROOT).charAt(12));
         System.out.println(str.charAt(20));
 

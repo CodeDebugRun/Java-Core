@@ -10,7 +10,7 @@ public class C01_UniqueCharacters {
     public static void uniqueCharacters(String input){
         String sum = "";
         input = input.replaceAll("[^a-zA-Z]", "").toLowerCase();
-        for(int i=0; i<=input.length()-1; i++){
+        for(int i=0; i<input.length(); i++){
             if(!sum.contains(input.substring(i,i+1))) {
                 sum += input.charAt(i);
             }
